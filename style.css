@@ -138,3 +138,7 @@ body {
   font-family: 'Ubuntu';
   src: url(files/fonts/Ubuntu.ttf);
 }
+@font-face {
+  font-family: 'PoiretOne';
+  src: url(files/fonts/PoiretOne.ttf);
+}
