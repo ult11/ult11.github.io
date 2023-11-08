@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="icon" sizes="192x192" href="img/ult11.png">
+	<title>ult11</title>
+	<meta name="description" content="старый добрый ult11">
+	<link rel="stylesheet" href="https://rizobyte.github.io/font-base/fonts.css">
+</head>
+
+<style>
+	* {
+		margin: 0px;
+		padding: 0px;
+		border: 0px;
+		outline: 0;
+	}
+
+	html,
+	body {
+		height: 100%;
+		background-color: #1A1A1D;
+		user-select: none;
+	}
+
+	main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+		height: 100%;
+	}
+
+	.background {
+		background-image: url(img/ult11.jpg);
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		position: fixed;
+		height: 100%;
+		width: 100%;
+		z-index: 0;
+	}
+
+	.color {
+		background-color: #00000088;
+		z-index: 1;
+		width: 100%;
+		position: fixed;
+		height: 100%;
+	}
+
+	a {
+		font-family: HammersmithOne;
+		color: white;
+		text-decoration: none;
+		transition: .7s;
+	}
+
+	a:hover {
+		color: goldenrod;
+	}
+
+	h3  {
+		font-family: ubuntu-regular;
+		color: white;
+	}
+</style>
+
+<body>
+	<main>
+		<div class="background"></div>
+		<div class="color"></div>
+		<div style="z-index: 2; text-align: center;">
+			<h3>latest projects</h3>
+			<h1><a href="https://mayerarch.github.io" target="_blank">mayerarch</a></h1>
+		</div>
+	</main>
+</body>
+
+</html>
